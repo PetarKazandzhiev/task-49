@@ -10,9 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="main">
+    <!-- <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
-    </div>
+    </div> -->
+
+    <form class="customForm">
+      <label>Name</label>
+      <input class='input' type="text" name="ccname" placeholder="ccname" autocomplete="on"/>
+      <label>Card Number</label>
+      <input class='input' type="text" name="cardnumber" placeholder="cardnumber" autocomplete="on"/>
+      <label>CVC</label>
+      <input class='input' type="password" name="cvc"  placeholder="cvc" autocomplete="off"/>
+      <label>Expiry Date</label>
+      <input class='input' type="text" name="cc-exp" placeholder="cc-exp" autocomplete="on"/>
+
+      <button type="submit" class="button">Submit</button>
+    </form>
+
+
   </body>
 </html>
